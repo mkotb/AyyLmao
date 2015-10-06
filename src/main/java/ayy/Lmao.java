@@ -7,44 +7,44 @@ import org.bukkit.event.player.PlayerChatEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 
 /**
- * ayy lmao
+ * ayyy lmao
  */
 public class Lmao extends JavaPlugin implements Listener {
 
     /**
-     *  ayy lmao
+     *  ayyy lmao
      */
     @Override
     public void onLoad() {
-        getLogger().info("ayy lmao");
+        getLogger().info("ayyy lmao");
     }
 
     /**
-     *  ayy lmao
+     *  ayyy lmao
      */
     @Override
     public void onEnable() {
-        getLogger().info("ayy lmao");
+        getLogger().info("ayyy lmao");
     }
 
     /**
-     *  ayy lmao
+     *  ayyy lmao
      */
     @Override
     public void onDisable() {
-        getLogger().info("ayy lmao");
+        getLogger().info("ayyy lmao");
     }
 
     /**
-     *  ayy lmao
+     *  ayyy lmao
      */
     @EventHandler
     public void ayyLmao(PlayerChatEvent ayy) {
-        if (ayy.getMessage().contains("alien")) { // ayy lmao
+        if (ayy.getMessage().contains("alien")) { // ayyy lmao
             Bukkit.broadcastMessage("ayy lmao");
         }
 
-         if (ayy.getMessage().contains("ayy")) { // ayy lmao
+         if (ayy.getMessage().contains("ayyy")) { // ayyy lmao
              Bukkit.broadcastMessage("lmao");
          }
     }
